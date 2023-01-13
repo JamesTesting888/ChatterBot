@@ -1,5 +1,18 @@
 ![ChatterBot: Machine learning in Python](https://i.imgur.com/b3SCmGT.png)
 
+# Installation Fix
+
+**Install Method:**
+`pip3.8 install git+https://github.com/JamesTesting888/ChatterBot`
+
+**Change Spacy Version**
+`pip3.8 install --force-reinstall -v "Spacy==2.1.3"`
+
+**Install Spacy Model**
+`python3.8 -m spacy download en_core_web_sm"`
+
+*If your python version is not 3.8 then do not do pip3.8.*
+
 # ChatterBot
 
 ChatterBot is a machine-learning based conversational dialog engine build in
